@@ -236,333 +236,146 @@
 }
 
 
+/* Body */
 
-/* -------------------------BODY-------------------------------- */
-
-
-#container>.body{
-    width: 100%;
-    height: auto;
-}
-
-#container>.body>.top-image{
-    width: 100%;
-    height: auto;
-    /* border: 1px solid red; */
+#container>.body-1{
     margin: auto;
-}
-#container>.body>.top-image>img{
+    margin-top: 40px;
     width: 100%;
-}
-
-#container>.body>.top-image>div:nth-child(2){
-    width: 20%;
-    height: 70px;
-    /* border: 1px solid red; */
-}
-
-
-
-/*------------------- MID BODY ---------------------*/
-
-
-#container>.body-2{
-    width: 100%;
-    background-color: rgb(241, 241, 241);
-    /* border: 2px solid teal; */
-    margin-top: 130px;
+    background-color: rgb(246, 246, 246);
+    /* border: 1px solid green; */
     height: auto;
 }
 
-#container>.body-2>.mid-body{
-    width: 85%;
+
+#container>.body-1>.up-part{
+    display: grid;
+    gap: 20px;
+    width: 70%;
     margin: auto;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+    height: 400px;
+    grid-template-columns: repeat(2,1fr);
     /* border: 1px solid red; */
 }
 
-
-#container>.body-2>.mid-body>div>h4{
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-#container>.body-2>.mid-body>div:nth-child(2){
+#container>.body-1>.up-part>div{
+    width: 100%;
+    text-align: center;
     background-color: white;
+    /* border: 2px solid blue; */
 }
 
-#container>.body-2>.mid-body>div>div{
-    margin-top:1px;
-    height: 327px;
-    background-color: rgb(241, 241, 241);
-    /* border: 1px solid gold; */
+#container>.body-1>.up-part>div>h2{
+  margin-top: 150px;
+  margin-bottom: 10px;
 }
 
-#container>.body-2>.mid-body>div>div>a{
-   color: black;
-   
-}
-
-#container>.body-2>.mid-body>div>div>h1{
-    padding-top: 200px;
-    padding-bottom: 30px;
-}
-
-
-
-#container>.body-2>.mid-body>div>img{
-
-    margin-top:70px;
-}
-
-
-#container>.body-2>.mid-body>div{
-    /* border: 2px solid green; */
-    width: 35%;
-    text-align: center;
-   }
-
-   #container>.body-2>.mid-body>div>img{
-    width: 100%;
-   }
-
-   
-   #container>.body-2>.mid-body>div>h2{
-    width: 100%;
-    margin-top: 20px;
-   }
-
-   #container>.body-2>.mid-body>div>p{
+.hii>p{
     margin-top: 10px;
-    color: rgb(150, 144, 144);
-   }
-
-   #container>.body-2>.mid-body>div>a{
-    color: black;
-    margin-top: 13px;
-    margin-left: 15px;
-   }
-
-/* ----------------BODY SLIDER -------------*/
-
-#container>.body-3{
-    height: auto;
-    width: 100%;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.slider-parent{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-}
-
-
-.slider-child{
-    width: 20%;
-    display: none;
-    text-align: center;
-    padding-bottom: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.slider-child img{
-    height: 350px;
-    width: 100%;
-}
-
-
-.slider-child>a{
-    text-decoration: none;
+.hii>a{
     color: #333;
 }
 
-.slider-child h4, p, h5{
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-
-#leftarrow, #rightarrow{
-    margin-left: 12px;
-    width: 3%;
-    display: inline-block;
-}
-
-#leftarrow button, #rightarrow button{
-    font-weight: bold;
-    cursor: pointer;
+.hii>i{
     font-size: 50px;
+    margin-top: 80px;
 }
 
 
 
- /* Mid-body-2 */
+/* Body mid */
 
 
- 
-#container>.body-21{
-    width: 100%;
-    background-color: rgb(241, 241, 241);
-    /* border: 2px solid teal; */
-    margin-top: 60px;
-    margin-bottom: 60px;
-    height: auto;
-}
-
-#container>.body-21>.mid-body-2{
-    width: 85%;
+#container>.body-3{
     margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    /* border: 1px solid green; */
     height: auto;
-    display: flex;
-    justify-content: space-between;
+}
+
+
+#container>.body-3>.body-mid{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 400px;
     /* border: 1px solid red; */
 }
 
-
-#container>.body-21>.mid-body-2>div>h4{
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-#container>.body-21>.mid-body-2>div:nth-child(2){
+#container>.body-3>.body-mid>h1{
+    width: 100%;
+    font-size:40px;
     background-color: white;
+    margin-top: 50px;
 }
-
-#container>.body-21>.mid-body-2>div>div{
-    margin-top:1px;
-    height: 327px;
-    background-color: rgb(241, 241, 241);
-    /* border: 1px solid gold; */
-}
-
-#container>.body-21>.mid-body-2>div>div>a{
-   color: black;
-   
-}
-
-#container>.body-21>.mid-body-2>div>div>h1{
-    padding-top: 200px;
-    padding-bottom: 30px;
-}
-
-
-
-#container>.body-21>.mid-body-2>div>img{
-
-    margin-top:70px;
-}
-
-
-#container>.body-21>.mid-body-2>div{
-    /* border: 2px solid green; */
-    width: 35%;
-    text-align: center;
-   }
-
-   #container>.body-21>.mid-body-2>div>img{
+#container>.body-3>.body-mid>h1:nth-child(2){
     width: 100%;
-   }
-
-   
-   #container>.body-21>.mid-body-2>div>h2{
-    width: 100%;
-    margin-top: 20px;
-   }
-
-   #container>.body-21>.mid-body-2>div>p{
-    margin-top: 10px;
-    color: rgb(150, 144, 144);
-   }
-
-   #container>.body-21>.mid-body-2>div>a{
-    color: black;
-    margin-top: 13px;
-    margin-left: 15px;
-   }
-
-
-   /* ---------------TOP PICKS------------- */
-
-#container>.top-picks{
-    width: 100%;
-    margin-bottom: 60px;
-    height: auto;
+    font-size:70px;
+    background-color: white;
+    margin-top: 50px;
 }
 
-#container>.top-picks>.top-picks-content{
-    width: 65%;
-    height: auto;
+#container>.body-3>.body-mid>h3{
+    width: 100%;
+    font-size: 25px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+
+/* Body-lower */
+
+
+
+#container>.body-4{
     margin: auto;
-    margin-top: 45px;
-    text-align: center;
-    /* border: 1px solid blue; */
-}
-
-#container>.top-picks>.top-picks-content>.pick-cards{
-    display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 100%;
-    justify-content: space-between;
-    text-align: center;
+    background-color: rgb(246, 246, 246);
+    /* border: 1px solid green; */
     height: auto;
 }
 
 
-#container>.top-picks>.top-picks-content>.pick-cards>div{
-    width: 15%;
-    height: auto;
-    /* border: 1px solid blue; */
-}
-
-#container>.top-picks>.top-picks-content>.pick-cards>div>img{
-    width: 100%;
-}
-
-#container>.top-picks>.top-picks-content>.pick-cards>div>h4{
-    font-size: 14px;
-}
-
-#container>.top-picks>.top-picks-content>.pick-cards>div>p{
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-#container>.top-picks>.top-picks-content>.pick-cards>div>h5{
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-
-/* ---------------BOTTOM Img---------------*/
-
-
-#container>.body-8{
-    width: 100%;
-    height: auto;
-}
-
-#container>.body-8>.down-image{
-    width: 100%;
-    height: auto;
-    /* border: 1px solid red; */
+#container>.body-4>.body-lower{
+    display: grid;
+    gap: 20px;
+    width: 70%;
     margin: auto;
-}
-#container>.body-8>.down-image>img{
-    width: 100%;
-}
-
-#container>.body-8>.down-image>div:nth-child(2){
-    width: 20%;
-    height: 70px;
+    height: auto;
+    grid-template-columns: repeat(3,1fr);
     /* border: 1px solid red; */
 }
+
+#container>.body-4>.body-lower>div{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    /* border: 2px solid blue; */
+}
+
+#container>.body-4>.body-lower>div>img{
+    width: 100%;
+    
+}
+
+#container>.body-4>.body-lower>div>h3{
+    
+    margin-top: 5px;
+    
+}
+#container>.body-4>.body-lower>div>i{
+    
+    margin-top: 70px;
+}
+
+
 
 /* --------FOOTER-------- */
 
@@ -743,5 +556,3 @@
     font-size: 12px;
     color: white;
 }
-
-
