@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shoppers Point</title>
 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
-<body>
+<body onload="show()">
     
     <div id="container">
 
@@ -48,13 +48,13 @@
                 <div class="nav-top-right">
                     <div>
                         <ul>
-                            <li><a href="">CUSTOMER CARE</a></li>
+                            <li><a href="register.html">REGISTER</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <ul>
-                            <li><a href="">CUSTOMER CARE</a></li>
+                            <li><a href="login.html">LOGIN</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,21 +63,30 @@
 
             <div class="nav-bottom">
                 <div class="nav-bottom-left">
-
+                    <a href="Women.html">WOMEN</a>
+                    <a href="">MEN</a>
+                    <a href="">KIDS</a>
+                    <a href="design.html">DESIGN+ART</a>
                 </div>
 
 
                 <div class="nav-bottom-mid">
-                    <img src="Images/logo2.png" alt="">
+                    <a href="index.html"><img src="Images/logo2.png" alt=""></a>
                 </div>
 
 
                 <div class="nav-bottom-right">
-
-                </div>
+                        <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                        <a href="cart.html"><i class="fas fa-cart-arrow-down fa-2x"></i></a>
+                </div>  
             </div>
         </div>
 
+
+
+        <!-- NAV BLACK -->
+        
         <div class="nav-black">
             <div>
 
@@ -121,6 +130,8 @@
                 <a href="">SHOP NOW</a>
             </div>
 
+            
+
             <div>
                 <h4>DESIGNERS</h4>
                 <h4>DOLCE & GABBANA</h4>
@@ -135,8 +146,10 @@
                 <h4>PRADA</h4>
                 <a href="">VIEW ALL</a>
 
-                <h1>NEW ARRIVALS</h1>
-                <a href="">VIEW ALL</a>
+                <div>
+                    <h1>NEW ARRIVALS</h1>
+                    <a href="">VIEW ALL</a>
+                </div>
             </div>
 
             <div>
@@ -153,37 +166,67 @@
 
     <div class="body-3">
         <div class="slider-parent">
-            <div id="leftarrow">
+            <div id="leftarrow" onclick="moveLeft()">
                 <button>&lt;</button>
             </div>
             <div class="slider-child" id="c1">
-                <img src="Images/pro1.jpg" alt="">
+               <a href=""><img src="Images/pro1.jpg" alt="">
+                <h4>STELLA McCARTNEY</h4>
+                <p>Sweater</p>
+                <p>38% OFF</p>
+                <h5>$ 594.00</h5></a> 
             </div>
             <div class="slider-child" id="c2">
-                <img src="Images/pro2.jpg" alt="">
+                <a href=""><img src="Images/pro2.jpg" alt="">
+                    <h4>APM Monaco</h4>
+                    <p>Earrings</p>
+                    <h5>$ 116.00</h5></a>
             </div>
             <div class="slider-child" id="c3">
-                <img src="Images/pro3.jpg" alt="">
+                <a href=""><img src="Images/pro3.jpg" alt="">
+                    <h4>BAG</h4>
+                    <p>Handbag</p>
+                    <h5>$ 89.00</h5></a>
             </div>
             <div class="slider-child" id="c4">
-                <img src="Images/pro4.jpg" alt="">
+                <a href=""><img src="Images/pro4.jpg" alt="">
+                    <h4>MINIMUM</h4>
+                    <p>Coat</p>
+                    <h5>$ 253.00</h5></a>
             </div>
             <div class="slider-child" id="c5">
-                <img src="Images/pro5.jpg" alt="">
+                <a href=""><img src="Images/pro5.jpg" alt="">
+                    <h4>GANNI</h4>
+                    <p>Cardigan</p>
+                    <p>33% OFF</p>
+                    <h5>$ 210.00</h5></a>
             </div>
             <div class="slider-child" id="c6">
-                <img src="Images/pro6.jpg" alt="">
+                <a href=""><img src="Images/pro6.jpg" alt="">
+                    <h4>ARKET</h4>
+                    <p>Handbag</p>
+                    <p>$ 93.00</p></a>
             </div>
             <div class="slider-child" id="c7">
-                <img src="Images/pro7.jpg" alt="">
+               <a href=""> <img src="Images/pro7.jpg" alt="">
+                <h4>COS</h4>
+                <p>Midi skirt</p>
+                <h5>$ 120.00</h5></a>
             </div>
             <div class="slider-child" id="c8">
-                <img src="Images/pro8.jpg" alt="">
+                <a href=""><img src="Images/pro8.jpg" alt="">
+                    <h4>TOPSHOP</h4>
+                    <p>Coat</p>
+                    <h5>$ 148.00</h5></a>
             </div>
             <div class="slider-child" id="c9">
-                <img src="Images/pro9.jpg" alt="">
+                <a href=""><img src="Images/pro9.jpg" alt="">
+                    <h4></h4>
+                    <p></p>
+                    <p></p>
+                    <h5></h5></a>
             </div>
-            <div id="rightarrow">
+            <div id="rightarrow" onclick="moveRight()">
                 <button>&gt;</button>
             </div>
         </div>
