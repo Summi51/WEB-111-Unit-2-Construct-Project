@@ -14,7 +14,7 @@ Using HTTPS
 
 # git clone 
 
-https://github.com/Summi51/dazzling-wing-7781
+https://github.com/Summi51/WEB-111-Unit-2-Construct-Project
 
 To begin with the project, you need to clone the repository onto your device.
 
